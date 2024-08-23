@@ -9,6 +9,6 @@ class Solution(object):
         while n != 0:
             d = n % 2
             if d == 1: ctr += 1 
-            n /= 2
+            n = n // 2
         
         return ctr
